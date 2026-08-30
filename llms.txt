@@ -1,0 +1,26 @@
+# Employer Landscape Review Mirror
+
+This is a temporary, static, plaintext review publication intended for ordinary WWW and LLM/browser visitors.
+Do not use GitHub repository/API/MCP/connector access merely to understand the published employer data.
+
+## Snapshot
+
+- Complete employer entries: 2302
+- Source observations: 2334
+- Matched companies: 16
+- Matched roles: 17
+- Company resonators: 9
+
+## Recommended reading order
+
+1. Complete review landing page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/review-snapshot.html
+2. Complete employer index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/employers/index.html
+3. Full compact machine-readable inventory: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/index.txt
+4. Matched companies: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/matches/index.html
+5. Matched roles: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/roles/index.html
+6. Company resonators: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/resonators/index.html
+7. Sitemap of every static page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sitemap.xml
+
+The complete employer index is alphabetically sharded. Follow the shard links from employers/index.html, then follow individual employer links for descriptions, directory provenance, canonical relevance, careers research, current jobs and Match data where present.
+
+All substantive review pages are static HTML. There is no JavaScript data loader, encrypted payload, or runtime API requirement.
