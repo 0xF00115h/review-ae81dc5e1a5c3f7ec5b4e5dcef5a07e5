@@ -7,6 +7,8 @@ Do not use GitHub repository/API/MCP/connector access merely to understand the p
 
 - Complete employer entries: 2302
 - Source observations: 2334
+- Canonical-priority RF employers: 300
+- Canonical-priority RF + ADJ employers: 619
 - Matched companies: 16
 - Matched roles: 17
 - Company resonators: 9
@@ -14,13 +16,17 @@ Do not use GitHub repository/API/MCP/connector access merely to understand the p
 ## Recommended reading order
 
 1. Complete review landing page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/review-snapshot.html
-2. Complete employer index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/employers/index.html
-3. Full compact machine-readable inventory: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/index.txt
-4. Matched companies: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/matches/index.html
-5. Matched roles: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/roles/index.html
-6. Company resonators: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/resonators/index.html
-7. Sitemap of every static page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sitemap.xml
+2. RF + ADJ focused employer view: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf-adj.html
+3. RF-only focused employer view: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf.html
+4. Complete employer index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/employers/index.html
+5. Full compact machine-readable inventory: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/index.txt
+6. Matched companies: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/matches/index.html
+7. Matched roles: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/roles/index.html
+8. Company resonators: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/resonators/index.html
+9. Sitemap of every static page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sitemap.xml
 
-The complete employer index is alphabetically sharded. Follow the shard links from employers/index.html, then follow individual employer links for descriptions, directory provenance, canonical relevance, careers research, current jobs and Match data where present.
+RF means canonical-priority RF-core employers. RF + ADJ means canonical-priority RF-core plus engineering-adjacent employers. These reproduce the useful relevance-scope semantics of the interactive Employer Landscape.
+
+The complete employer index is alphabetically sharded. Follow individual employer links for descriptions, directory provenance, canonical relevance, careers research, current jobs and Match data where present.
 
 All substantive review pages are static HTML. There is no JavaScript data loader, encrypted payload, or runtime API requirement.
