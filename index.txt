@@ -1,0 +1,34 @@
+EMPLOYER MATCH REVIEW SNAPSHOT
+matched_companies=16
+matched_roles=17
+company_resonators=9
+
+MATCHED ROLES
+Accelercomm | Principal System Test Engineer | Southampton | very_high | roles/accelercomm-principal-system-test-engineer.html
+Awerian | Electronics Engineer Consultant | Cambridge | high | roles/awerian-electronics-engineer-consultant.html
+Blighter Surveillance Systems | Production Electronics Engineer | Great Chesterford | very_high | roles/blighter-surveillance-systems-production-electronics-engineer.html
+CableFree: Wireless Excellence | Junior or Senior Wireless Engineer |  | high | roles/cablefree-wireless-excellence-junior-or-senior-wireless-engineer.html
+Cambridge Consultants | Senior Electronics Engineer | Cambridge | high | roles/cambridge-consultants-senior-electronics-engineer.html
+Cirrus Logic | Senior Staff Embedded System Test Engineer | Edinburgh | very_high | roles/cirrus-logic-senior-staff-embedded-system-test-engineer.html
+CRFS | RF Test Engineer | Cambridge | very_high | roles/crfs-rf-test-engineer.html
+Graphcore | Test Development Engineer, Electronic Hardware | Bristol | high | roles/graphcore-test-development-engineer-electronic-hardware.html
+Graphcore | Hardware System Test / Staff Hardware System Test | Bristol | high | roles/graphcore-hardware-system-test-staff-hardware-system-test.html
+Horizon Technology Consulting Ltd | Contract Electronics Engineer |  | very_high | roles/horizon-technology-consulting-ltd-contract-electronics-engineer.html
+HUBER + SUHNER (UK) Ltd. | Electronic Engineer | Cambridge | very_high | roles/huber-suhner-uk-ltd-electronic-engineer.html
+IonQ | Senior Electronics Engineer, Reliability Engineering | Oxford | very_high | roles/ionq-senior-electronics-engineer-reliability-engineering.html
+ORCA Computing | Electronic Engineer | Central London | very_high | roles/orca-computing-electronic-engineer.html
+TTP | Communications RF Engineer | Cambridge | very_high | roles/ttp-communications-rf-engineer.html
+Xairos Systems | Test and Validation Engineer | Cambridge | very_high | roles/xairos-systems-test-and-validation-engineer.html
+Open Cosmos | Verification & Validation Engineer | Harwell | high | roles/open-cosmos-verification-validation-engineer.html
+Toshiba Europe | Electronics Engineer | Cambridge | high | roles/toshiba-europe-electronics-engineer.html
+
+COMPANY RESONATORS
+ETL Systems | employers/etl-systems.html
+Sepura | employers/sepura.html
+Celestia UK | employers/celestia-uk.html
+Chronos Technology Ltd | employers/chronos-technology-ltd.html
+Domo Tactical Communications | employers/domo-tactical-communications.html
+Filtronic | employers/filtronic.html
+Multiple Access Communications Limited | employers/multiple-access-communications-limited.html
+Plextek | employers/plextek.html
+Viper RF Limited | employers/viper-rf-limited.html
