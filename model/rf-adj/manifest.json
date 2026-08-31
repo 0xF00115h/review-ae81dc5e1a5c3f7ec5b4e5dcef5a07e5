@@ -2,16 +2,16 @@
   "snapshot_date": "2026-08-22",
   "landscape_entries": 2302,
   "rf_adj_entries": 619,
-  "assessed_entries": 336,
+  "assessed_entries": 449,
   "assessment": {
     "status": "running",
     "cycle_id": "2026-08-30T13:55:55Z",
     "assessment_version": "canonical-org-assessment-v1",
     "total": 619,
-    "completed": 336,
+    "completed": 449,
     "terminal_failures": 0,
-    "batches_completed": 33,
-    "updated_at": "2026-08-31T07:06:54Z"
+    "batches_completed": 45,
+    "updated_at": "2026-08-31T09:00:10Z"
   },
   "shard_size": 20,
   "ordering": "source publication order; deterministic; not ranked",

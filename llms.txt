@@ -19,7 +19,7 @@ For systematic employer-card review, start here:
 - RF + ADJ corpus index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/index.html
 - Corpus manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/manifest.json
 - Cohort size: 619
-- Employers with current published assessment data: 336
+- Employers with current published assessment data: 449
 
 The corpus is sharded in deterministic publication order and contains compact card-equivalent identity, canonical relevance, assessment, careers-summary and Match information. Use individual employer pages for expanded role lists.
 
