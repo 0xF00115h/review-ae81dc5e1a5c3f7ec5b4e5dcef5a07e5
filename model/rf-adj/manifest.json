@@ -1,0 +1,206 @@
+{
+  "snapshot_date": "2026-08-22",
+  "landscape_entries": 2302,
+  "rf_adj_entries": 619,
+  "assessed_entries": 336,
+  "assessment": {
+    "status": "running",
+    "cycle_id": "2026-08-30T13:55:55Z",
+    "assessment_version": "canonical-org-assessment-v1",
+    "total": 619,
+    "completed": 336,
+    "terminal_failures": 0,
+    "batches_completed": 33,
+    "updated_at": "2026-08-31T07:06:54Z"
+  },
+  "shard_size": 20,
+  "ordering": "source publication order; deterministic; not ranked",
+  "shards": [
+    {
+      "stem": "001-020",
+      "first": 1,
+      "last": 20,
+      "count": 20
+    },
+    {
+      "stem": "021-040",
+      "first": 21,
+      "last": 40,
+      "count": 20
+    },
+    {
+      "stem": "041-060",
+      "first": 41,
+      "last": 60,
+      "count": 20
+    },
+    {
+      "stem": "061-080",
+      "first": 61,
+      "last": 80,
+      "count": 20
+    },
+    {
+      "stem": "081-100",
+      "first": 81,
+      "last": 100,
+      "count": 20
+    },
+    {
+      "stem": "101-120",
+      "first": 101,
+      "last": 120,
+      "count": 20
+    },
+    {
+      "stem": "121-140",
+      "first": 121,
+      "last": 140,
+      "count": 20
+    },
+    {
+      "stem": "141-160",
+      "first": 141,
+      "last": 160,
+      "count": 20
+    },
+    {
+      "stem": "161-180",
+      "first": 161,
+      "last": 180,
+      "count": 20
+    },
+    {
+      "stem": "181-200",
+      "first": 181,
+      "last": 200,
+      "count": 20
+    },
+    {
+      "stem": "201-220",
+      "first": 201,
+      "last": 220,
+      "count": 20
+    },
+    {
+      "stem": "221-240",
+      "first": 221,
+      "last": 240,
+      "count": 20
+    },
+    {
+      "stem": "241-260",
+      "first": 241,
+      "last": 260,
+      "count": 20
+    },
+    {
+      "stem": "261-280",
+      "first": 261,
+      "last": 280,
+      "count": 20
+    },
+    {
+      "stem": "281-300",
+      "first": 281,
+      "last": 300,
+      "count": 20
+    },
+    {
+      "stem": "301-320",
+      "first": 301,
+      "last": 320,
+      "count": 20
+    },
+    {
+      "stem": "321-340",
+      "first": 321,
+      "last": 340,
+      "count": 20
+    },
+    {
+      "stem": "341-360",
+      "first": 341,
+      "last": 360,
+      "count": 20
+    },
+    {
+      "stem": "361-380",
+      "first": 361,
+      "last": 380,
+      "count": 20
+    },
+    {
+      "stem": "381-400",
+      "first": 381,
+      "last": 400,
+      "count": 20
+    },
+    {
+      "stem": "401-420",
+      "first": 401,
+      "last": 420,
+      "count": 20
+    },
+    {
+      "stem": "421-440",
+      "first": 421,
+      "last": 440,
+      "count": 20
+    },
+    {
+      "stem": "441-460",
+      "first": 441,
+      "last": 460,
+      "count": 20
+    },
+    {
+      "stem": "461-480",
+      "first": 461,
+      "last": 480,
+      "count": 20
+    },
+    {
+      "stem": "481-500",
+      "first": 481,
+      "last": 500,
+      "count": 20
+    },
+    {
+      "stem": "501-520",
+      "first": 501,
+      "last": 520,
+      "count": 20
+    },
+    {
+      "stem": "521-540",
+      "first": 521,
+      "last": 540,
+      "count": 20
+    },
+    {
+      "stem": "541-560",
+      "first": 541,
+      "last": 560,
+      "count": 20
+    },
+    {
+      "stem": "561-580",
+      "first": 561,
+      "last": 580,
+      "count": 20
+    },
+    {
+      "stem": "581-600",
+      "first": 581,
+      "last": 600,
+      "count": 20
+    },
+    {
+      "stem": "601-619",
+      "first": 601,
+      "last": 619,
+      "count": 19
+    }
+  ]
+}
