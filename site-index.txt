@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2307
+landscape_entries=2309
 source_observations=2334
 matched_companies=16
 matched_roles=17
@@ -1592,6 +1592,7 @@ Power Networks Demonstration Centre | Unresolved | jobs=0 |  | employers/power-n
 Powys County Council | Unresolved | jobs=0 |  | employers/powys-county-council.html
 PPM Pulse Power & Measurement | Unresolved | jobs=0 |  | employers/ppm-pulse-power-measurement.html
 PQMS Training | Unresolved | jobs=0 |  | employers/pqms-training.html
+Pragmatic Design Solutions Limited | ADJ | jobs=0 |  | employers/pragmatic-design-solutions-limited.html
 Pramac Generac UK | Unresolved | jobs=0 |  | employers/pramac-generac-uk.html
 Precision Decisions | Unresolved | jobs=0 |  | employers/precision-decisions.html
 Precision Optical Transceivers | RF | jobs=0 |  | employers/precision-optical-transceivers.html
@@ -1899,6 +1900,7 @@ Staffordshire Chambers of Commerce | Unresolved | jobs=0 |  | employers/stafford
 Staffordshire County Council | Unresolved | jobs=0 |  | employers/staffordshire-county-council.html
 Staffordshire University | Unresolved | jobs=0 |  | employers/staffordshire-university.html
 Stagecoach East Midlands | Unresolved | jobs=0 |  | employers/stagecoach-east-midlands.html
+Stannah | ADJ | jobs=0 |  | employers/stannah.html
 Starware Design | ADJ | jobs=0 |  | employers/starware-design.html
 StateArt | Unresolved | jobs=0 |  | employers/stateart.html
 Stellar Technology | Unresolved | jobs=0 |  | employers/stellar-technology.html
