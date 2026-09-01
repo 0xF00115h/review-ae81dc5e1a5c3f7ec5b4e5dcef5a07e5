@@ -1,17 +1,17 @@
 {
   "snapshot_date": "2026-08-22",
-  "landscape_entries": 2302,
-  "rf_adj_entries": 619,
-  "assessed_entries": 449,
+  "landscape_entries": 2307,
+  "rf_adj_entries": 624,
+  "assessed_entries": 624,
   "assessment": {
-    "status": "running",
+    "status": "complete",
     "cycle_id": "2026-08-30T13:55:55Z",
     "assessment_version": "canonical-org-assessment-v1",
     "total": 619,
-    "completed": 449,
+    "completed": 619,
     "terminal_failures": 0,
-    "batches_completed": 45,
-    "updated_at": "2026-08-31T09:00:10Z"
+    "batches_completed": 64,
+    "updated_at": "2026-08-31T12:30:46Z"
   },
   "shard_size": 20,
   "ordering": "source publication order; deterministic; not ranked",
@@ -197,10 +197,16 @@
       "count": 20
     },
     {
-      "stem": "601-619",
+      "stem": "601-620",
       "first": 601,
-      "last": 619,
-      "count": 19
+      "last": 620,
+      "count": 20
+    },
+    {
+      "stem": "621-624",
+      "first": 621,
+      "last": 624,
+      "count": 4
     }
   ]
 }

@@ -5,10 +5,10 @@ Do not use GitHub repository/API/MCP/connector access merely to understand the p
 
 ## Snapshot
 
-- Complete employer entries: 2302
+- Complete employer entries: 2307
 - Source observations: 2334
-- Canonical-priority RF employers: 300
-- Canonical-priority RF + ADJ employers: 619
+- Canonical-priority RF employers: 305
+- Canonical-priority RF + ADJ employers: 624
 - Matched companies: 16
 - Matched roles: 17
 - Company resonators: 9
@@ -18,8 +18,8 @@ Do not use GitHub repository/API/MCP/connector access merely to understand the p
 For systematic employer-card review, start here:
 - RF + ADJ corpus index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/index.html
 - Corpus manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/manifest.json
-- Cohort size: 619
-- Employers with current published assessment data: 449
+- Cohort size: 624
+- Employers with current published assessment data: 624
 
 The corpus is sharded in deterministic publication order and contains compact card-equivalent identity, canonical relevance, assessment, careers-summary and Match information. Use individual employer pages for expanded role lists.
 
