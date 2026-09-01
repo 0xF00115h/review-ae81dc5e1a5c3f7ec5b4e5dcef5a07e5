@@ -29,7 +29,7 @@ Use these ordinary WWW pages rather than GitHub repository/API/MCP access when r
 ## Snapshot
 
 - Allow-listed jobs: 2
-- Curated Companies dossiers: 13
+- Curated Companies dossiers: 14
 
 Employer pages contain the systematic canonical identity, descriptions, relevance, careers research, current researched roles, organisation assessment and Match/resonator projection where available.
 Companies pages contain the separate manually curated dossier material and should not be treated as interchangeable with the systematic Employer Landscape.
