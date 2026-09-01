@@ -1,0 +1,999 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow,noarchive"><title>SysMap</title><style>:root{color-scheme:light dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body{max-width:1100px;margin:0 auto;padding:22px;line-height:1.48}header{border-bottom:1px solid #8885;margin-bottom:22px;padding-bottom:14px}
+nav{display:flex;flex-wrap:wrap;gap:12px;margin-top:9px}nav a{font-weight:600}h1{margin:.2rem 0}h2{margin-top:1.8rem}.muted,small{opacity:.72}
+table{width:100%;border-collapse:collapse;font-size:.91rem}th,td{text-align:left;vertical-align:top;border-bottom:1px solid #8884;padding:7px}th{white-space:nowrap}
+.card{border:1px solid #8886;border-radius:8px;padding:13px;margin:11px 0}.notice{border-left:4px solid currentColor;padding:8px 12px;background:#8881}code{font-size:.9em}
+@media(max-width:700px){body{padding:13px}table{font-size:.81rem}}</style></head><body><header><p class="muted">Static whole-site review snapshot</p><h1>SysMap</h1><nav><a href="../index.html">Overview</a><a href="../jobs/index.html">Jobs</a><a href="../employers/index.html">Employers</a><a href="../companies/index.html">Companies</a><a href="../automation/index.html">Automation</a><a href="../sysmap/index.html">SysMap</a><a href="../filters/rf.html">RF</a><a href="../filters/rf-adj.html">RF + ADJ</a></nav></header><main><h2>summary.json</h2><pre>{
+  &quot;areas&quot;: 9,
+  &quot;compiled_at&quot;: &quot;2026-08-31T16:34:24Z&quot;,
+  &quot;components&quot;: 21,
+  &quot;layout_version&quot;: 1,
+  &quot;model_digest&quot;: &quot;6f66acec3abd6fd7b51b712d1281364aa2675d959ba3be8e116b74e1e49a2556&quot;,
+  &quot;model_id&quot;: &quot;jobsearch_sysmap&quot;,
+  &quot;process_patterns&quot;: 4,
+  &quot;public_projection&quot;: &quot;passed&quot;,
+  &quot;relationships&quot;: 28,
+  &quot;review_policy_version&quot;: 1,
+  &quot;schema_version&quot;: 2,
+  &quot;source_commit&quot;: &quot;8efdf933896f334829855b6d6b81f3032d550424&quot;,
+  &quot;validation&quot;: &quot;passed&quot;
+}</pre><h2>system-map.json</h2><pre>{
+  &quot;areas&quot;: [
+    {
+      &quot;id&quot;: &quot;source_acquisition&quot;,
+      &quot;name&quot;: &quot;Source acquisition&quot;,
+      &quot;order&quot;: 10,
+      &quot;summary&quot;: &quot;External observations, registry feeds, monitor evidence and source-specific employer authorities.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;canonical_identity&quot;,
+      &quot;name&quot;: &quot;Canonical identity&quot;,
+      &quot;order&quot;: 20,
+      &quot;summary&quot;: &quot;Stable cross-source employer identity and provenance convergence keyed by durable ce_ IDs.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;careers_research&quot;,
+      &quot;name&quot;: &quot;Careers research&quot;,
+      &quot;order&quot;: 30,
+      &quot;summary&quot;: &quot;Learned careers/ATS routes, role observations and resumable employer research state.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;organisation_assessment&quot;,
+      &quot;name&quot;: &quot;Organisation assessment&quot;,
+      &quot;order&quot;: 40,
+      &quot;summary&quot;: &quot;Canonical-ID-keyed derived company metrics and evidence-backed organisation judgement.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;match_alignment&quot;,
+      &quot;name&quot;: &quot;Match and alignment&quot;,
+      &quot;order&quot;: 50,
+      &quot;summary&quot;: &quot;Curated company and role fit judgements attached to exact canonical employer identities.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;publication&quot;,
+      &quot;name&quot;: &quot;Publication&quot;,
+      &quot;order&quot;: 60,
+      &quot;summary&quot;: &quot;Generated public-safe projections, Activity derivation, encrypted transport and Pages delivery.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;review_observability&quot;,
+      &quot;name&quot;: &quot;Review and observability&quot;,
+      &quot;order&quot;: 70,
+      &quot;summary&quot;: &quot;Human/LLM inspection surfaces, deterministic model corpus and semantic Activity history.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;supervisor_control&quot;,
+      &quot;name&quot;: &quot;Supervisor and control&quot;,
+      &quot;order&quot;: 80,
+      &quot;summary&quot;: &quot;Privileged bounded orchestration, conveyors, convergence workers, review and recovery control-plane activity.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;public_ui&quot;,
+      &quot;name&quot;: &quot;Public UI&quot;,
+      &quot;order&quot;: 90,
+      &quot;summary&quot;: &quot;Jobs, Companies, Employer Landscape, Activity, sequence playback and Sphere presentation/runtime interaction.&quot;
+    }
+  ],
+  &quot;components&quot;: [
+    {
+      &quot;authority&quot;: &quot;presentation_history&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;prs&quot;: 1
+      },
+      &quot;id&quot;: &quot;activity_history&quot;,
+      &quot;importance&quot;: &quot;supporting&quot;,
+      &quot;kind&quot;: &quot;derived_history&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Semantic Activity history&quot;,
+      &quot;overlaps&quot;: [
+        &quot;publication&quot;,
+        &quot;public_ui&quot;
+      ],
+      &quot;primary_area&quot;: &quot;review_observability&quot;,
+      &quot;summary&quot;: &quot;Bounded public-safe history derived from published employer-state changes and previous encrypted snapshots.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;process&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;issues&quot;: 2,
+        &quot;prs&quot;: 3,
+        &quot;workflow&quot;: 1
+      },
+      &quot;id&quot;: &quot;assessment_conveyor&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;process&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Assessment conveyor&quot;,
+      &quot;overlaps&quot;: [
+        &quot;supervisor_control&quot;,
+        &quot;publication&quot;
+      ],
+      &quot;primary_area&quot;: &quot;organisation_assessment&quot;,
+      &quot;summary&quot;: &quot;Frozen-cohort resumable conveyor using per-employer checkpoints, bounded retries, publication checkpoints and continuation.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;organisation_assessment&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;issues&quot;: 1,
+        &quot;prs&quot;: 3
+      },
+      &quot;id&quot;: &quot;assessment_state&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;durable_state&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Organisation assessment state&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;,
+        &quot;supervisor_control&quot;
+      ],
+      &quot;primary_area&quot;: &quot;organisation_assessment&quot;,
+      &quot;summary&quot;: &quot;Canonical-ID-keyed durable organisation assessment for the frozen RF+ADJ cohort.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;process&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;issues&quot;: 1,
+        &quot;prs&quot;: 1
+      },
+      &quot;id&quot;: &quot;canonical_convergence&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;process&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Canonical convergence&quot;,
+      &quot;overlaps&quot;: [
+        &quot;source_acquisition&quot;,
+        &quot;supervisor_control&quot;
+      ],
+      &quot;primary_area&quot;: &quot;canonical_identity&quot;,
+      &quot;summary&quot;: &quot;Deterministic/reviewed resolution of heterogeneous source identities onto stable canonical employers.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;canonical_employer_identity&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;prs&quot;: 4
+      },
+      &quot;id&quot;: &quot;canonical_registry&quot;,
+      &quot;importance&quot;: &quot;foundational&quot;,
+      &quot;kind&quot;: &quot;data_authority&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Canonical Employer Registry&quot;,
+      &quot;overlaps&quot;: [
+        &quot;source_acquisition&quot;
+      ],
+      &quot;primary_area&quot;: &quot;canonical_identity&quot;,
+      &quot;summary&quot;: &quot;Stable cross-source employer identity authority with immutable ce_ IDs, aliases, domains and source provenance.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;process&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;prs&quot;: 6
+      },
+      &quot;id&quot;: &quot;careers_resolver&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;process&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Learned careers / ATS resolver&quot;,
+      &quot;overlaps&quot;: [
+        &quot;source_acquisition&quot;
+      ],
+      &quot;primary_area&quot;: &quot;careers_research&quot;,
+      &quot;summary&quot;: &quot;Deterministic-first route discovery and learned-route reuse with ATS/native collection and bounded assisted fallback.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;careers_research&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1
+      },
+      &quot;id&quot;: &quot;careers_state&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;durable_state&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Careers research state&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;
+      ],
+      &quot;primary_area&quot;: &quot;careers_research&quot;,
+      &quot;summary&quot;: &quot;Resumable operational employer careers/ATS research state, independent of canonical identity.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;curated_company_dossier&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;issues&quot;: 1,
+        &quot;prs&quot;: 2
+      },
+      &quot;id&quot;: &quot;companies_curation&quot;,
+      &quot;importance&quot;: &quot;supporting&quot;,
+      &quot;kind&quot;: &quot;curated_dataset&quot;,
+      &quot;maturity&quot;: &quot;repeated&quot;,
+      &quot;name&quot;: &quot;Curated Companies dossiers&quot;,
+      &quot;overlaps&quot;: [
+        &quot;review_observability&quot;
+      ],
+      &quot;primary_area&quot;: &quot;public_ui&quot;,
+      &quot;summary&quot;: &quot;Issue-native manually curated company intelligence projected to a dedicated encrypted Companies page.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;presentation&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1
+      },
+      &quot;id&quot;: &quot;employer_landscape_ui&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;user_surface&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Employer Landscape&quot;,
+      &quot;overlaps&quot;: [
+        &quot;match_alignment&quot;,
+        &quot;organisation_assessment&quot;,
+        &quot;review_observability&quot;
+      ],
+      &quot;primary_area&quot;: &quot;public_ui&quot;,
+      &quot;summary&quot;: &quot;Public employer exploration surface combining cards, filters, assessment, Match, Activity and Sphere views.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;transport_not_business_truth&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1,
+        &quot;prs&quot;: 3
+      },
+      &quot;id&quot;: &quot;encrypted_bundle&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;transport&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Encrypted public bundle&quot;,
+      &quot;overlaps&quot;: [
+        &quot;public_ui&quot;
+      ],
+      &quot;primary_area&quot;: &quot;publication&quot;,
+      &quot;summary&quot;: &quot;AES-256-GCM transport envelope containing generated jobs, employers and automation datasets.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;process&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;issues&quot;: 2,
+        &quot;prs&quot;: 2
+      },
+      &quot;id&quot;: &quot;match_convergence&quot;,
+      &quot;importance&quot;: &quot;supporting&quot;,
+      &quot;kind&quot;: &quot;process&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Match convergence / Route B&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;,
+        &quot;supervisor_control&quot;
+      ],
+      &quot;primary_area&quot;: &quot;match_alignment&quot;,
+      &quot;summary&quot;: &quot;Bounded evidence-to-canonical-ID match curation with structural validation, semantic review and human merge.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;curated_match&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 2,
+        &quot;issues&quot;: 3,
+        &quot;prs&quot;: 5
+      },
+      &quot;id&quot;: &quot;match_registry&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;data_authority&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Match companion registry&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;
+      ],
+      &quot;primary_area&quot;: &quot;match_alignment&quot;,
+      &quot;summary&quot;: &quot;Human-curated company/role fit authority supporting role_match, company_resonator and watch without owning employer identity.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;derived_not_authoritative&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 2
+      },
+      &quot;id&quot;: &quot;public_employer_build&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;derived_dataset&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Generated employer projection&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;,
+        &quot;careers_research&quot;,
+        &quot;organisation_assessment&quot;,
+        &quot;match_alignment&quot;
+      ],
+      &quot;primary_area&quot;: &quot;publication&quot;,
+      &quot;summary&quot;: &quot;Transient public-safe join of canonical identity, careers, assessment, descriptions, source links and Match projection.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;review_projection_not_source&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;issues&quot;: 1,
+        &quot;prs&quot;: 4
+      },
+      &quot;id&quot;: &quot;review_model_corpus&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;review_projection&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;RF/ADJ review model corpus&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;,
+        &quot;careers_research&quot;,
+        &quot;organisation_assessment&quot;,
+        &quot;match_alignment&quot;
+      ],
+      &quot;primary_area&quot;: &quot;review_observability&quot;,
+      &quot;summary&quot;: &quot;Deterministic plaintext 619-employer public-safe inspection corpus with HTML and JSONL shards.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;classification_not_identity&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;paths&quot;: 1
+      },
+      &quot;id&quot;: &quot;rf_adj_classification&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;classification_plane&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;RF / ADJ classification&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;
+      ],
+      &quot;primary_area&quot;: &quot;source_acquisition&quot;,
+      &quot;summary&quot;: &quot;Source/canonical relevance designation distinguishing RF core from engineering-adjacent scope.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;presentation_runtime&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1
+      },
+      &quot;id&quot;: &quot;secure_runtime&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;runtime_component&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Secure data virtualization&quot;,
+      &quot;overlaps&quot;: [
+        &quot;publication&quot;
+      ],
+      &quot;primary_area&quot;: &quot;public_ui&quot;,
+      &quot;summary&quot;: &quot;Browser-side decryption and synthetic JSON endpoint virtualization over the encrypted publication bundle.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;source_specific_identity&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 1
+      },
+      &quot;id&quot;: &quot;source_authorities&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;data_authority&quot;,
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Source employer authorities&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;
+      ],
+      &quot;primary_area&quot;: &quot;source_acquisition&quot;,
+      &quot;summary&quot;: &quot;Source-specific employer identity/provenance authorities, including LinkedIn, Indeed and durable UKTIN source state.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;evidence_only&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 2
+      },
+      &quot;id&quot;: &quot;source_observations&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;evidence_plane&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Acquisition observations&quot;,
+      &quot;overlaps&quot;: [
+        &quot;review_observability&quot;
+      ],
+      &quot;primary_area&quot;: &quot;source_acquisition&quot;,
+      &quot;summary&quot;: &quot;Raw and normalized employer-like observations from external sources, monitors and reviewed transport surfaces.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;presentation&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;issues&quot;: 2,
+        &quot;prs&quot;: 5
+      },
+      &quot;id&quot;: &quot;sphere_journeys&quot;,
+      &quot;importance&quot;: &quot;supporting&quot;,
+      &quot;kind&quot;: &quot;interaction_system&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Activity / sequence / Sphere journeys&quot;,
+      &quot;overlaps&quot;: [
+        &quot;review_observability&quot;
+      ],
+      &quot;primary_area&quot;: &quot;public_ui&quot;,
+      &quot;summary&quot;: &quot;Canonical-ID-driven navigation and replay primitives over Activity events and filtered employer sequences.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;control_not_employer_truth&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;docs&quot;: 2
+      },
+      &quot;id&quot;: &quot;supervisor_control_plane&quot;,
+      &quot;importance&quot;: &quot;core&quot;,
+      &quot;kind&quot;: &quot;control_plane&quot;,
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Supervisor control plane&quot;,
+      &quot;overlaps&quot;: [
+        &quot;canonical_identity&quot;,
+        &quot;organisation_assessment&quot;,
+        &quot;match_alignment&quot;
+      ],
+      &quot;primary_area&quot;: &quot;supervisor_control&quot;,
+      &quot;summary&quot;: &quot;Privileged bounded orchestration and review environment for conveyors, convergence work, recovery and delegated AI processes.&quot;
+    },
+    {
+      &quot;authority&quot;: &quot;curated_system_interpretation&quot;,
+      &quot;default_visible&quot;: true,
+      &quot;evidence_counts&quot;: {
+        &quot;issues&quot;: 1
+      },
+      &quot;id&quot;: &quot;sysmap_model&quot;,
+      &quot;importance&quot;: &quot;supporting&quot;,
+      &quot;kind&quot;: &quot;curated_knowledge_model&quot;,
+      &quot;maturity&quot;: &quot;experiment&quot;,
+      &quot;name&quot;: &quot;SysMap semantic model&quot;,
+      &quot;overlaps&quot;: [
+        &quot;supervisor_control&quot;,
+        &quot;public_ui&quot;
+      ],
+      &quot;primary_area&quot;: &quot;review_observability&quot;,
+      &quot;summary&quot;: &quot;Curated graph of system components, relationships, maturity and evidence compiled into a navigable system map.&quot;
+    }
+  ],
+  &quot;counts&quot;: {
+    &quot;areas&quot;: 9,
+    &quot;components&quot;: 21,
+    &quot;process_patterns&quot;: 4,
+    &quot;relationships&quot;: 28
+  },
+  &quot;layout&quot;: {
+    &quot;areas&quot;: {
+      &quot;canonical_identity&quot;: {
+        &quot;h&quot;: 330,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 340,
+        &quot;x&quot;: 520,
+        &quot;y&quot;: 300
+      },
+      &quot;careers_research&quot;: {
+        &quot;h&quot;: 250,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 270,
+        &quot;x&quot;: 810,
+        &quot;y&quot;: 170
+      },
+      &quot;match_alignment&quot;: {
+        &quot;h&quot;: 250,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 280,
+        &quot;x&quot;: 1110,
+        &quot;y&quot;: 270
+      },
+      &quot;organisation_assessment&quot;: {
+        &quot;h&quot;: 270,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 300,
+        &quot;x&quot;: 820,
+        &quot;y&quot;: 470
+      },
+      &quot;public_ui&quot;: {
+        &quot;h&quot;: 250,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 270,
+        &quot;x&quot;: 1440,
+        &quot;y&quot;: 260
+      },
+      &quot;publication&quot;: {
+        &quot;h&quot;: 300,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 310,
+        &quot;x&quot;: 1260,
+        &quot;y&quot;: 540
+      },
+      &quot;review_observability&quot;: {
+        &quot;h&quot;: 260,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 430,
+        &quot;x&quot;: 1080,
+        &quot;y&quot;: 800
+      },
+      &quot;source_acquisition&quot;: {
+        &quot;h&quot;: 300,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 300,
+        &quot;x&quot;: 180,
+        &quot;y&quot;: 260
+      },
+      &quot;supervisor_control&quot;: {
+        &quot;h&quot;: 250,
+        &quot;label_anchor&quot;: &quot;top_left&quot;,
+        &quot;w&quot;: 420,
+        &quot;x&quot;: 610,
+        &quot;y&quot;: 790
+      }
+    },
+    &quot;backbone_relationships&quot;: [
+      &quot;observations_feed_authorities&quot;,
+      &quot;authorities_converge_canonical&quot;,
+      &quot;convergence_writes_canonical&quot;,
+      &quot;canonical_keys_careers&quot;,
+      &quot;canonical_keys_assessment&quot;,
+      &quot;canonical_keys_match&quot;,
+      &quot;careers_enriches_public&quot;,
+      &quot;assessment_enriches_public&quot;,
+      &quot;match_enriches_public&quot;,
+      &quot;canonical_enriches_public&quot;,
+      &quot;public_publishes_bundle&quot;,
+      &quot;bundle_virtualized_runtime&quot;,
+      &quot;secure_runtime_renders_landscape&quot;,
+      &quot;supervisor_controls_assessment&quot;,
+      &quot;system_evidence_curates_sysmap&quot;
+    ],
+    &quot;canvas&quot;: {
+      &quot;backbone_only_default&quot;: true,
+      &quot;edge_labels_default&quot;: false,
+      &quot;height&quot;: 980,
+      &quot;min_node_gap&quot;: 28,
+      &quot;width&quot;: 1600
+    },
+    &quot;components&quot;: {
+      &quot;activity_history&quot;: {
+        &quot;level&quot;: 2,
+        &quot;x&quot;: 1150,
+        &quot;y&quot;: 710
+      },
+      &quot;assessment_conveyor&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 740,
+        &quot;y&quot;: 430
+      },
+      &quot;assessment_state&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 870,
+        &quot;y&quot;: 535
+      },
+      &quot;canonical_convergence&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 430,
+        &quot;y&quot;: 220
+      },
+      &quot;canonical_registry&quot;: {
+        &quot;level&quot;: 0,
+        &quot;width&quot;: 190,
+        &quot;x&quot;: 555,
+        &quot;y&quot;: 315
+      },
+      &quot;careers_resolver&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 770,
+        &quot;y&quot;: 125
+      },
+      &quot;careers_state&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 855,
+        &quot;y&quot;: 220
+      },
+      &quot;companies_curation&quot;: {
+        &quot;level&quot;: 2,
+        &quot;x&quot;: 1290,
+        &quot;y&quot;: 820
+      },
+      &quot;employer_landscape_ui&quot;: {
+        &quot;level&quot;: 0,
+        &quot;width&quot;: 175,
+        &quot;x&quot;: 1480,
+        &quot;y&quot;: 240
+      },
+      &quot;encrypted_bundle&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 1300,
+        &quot;y&quot;: 610
+      },
+      &quot;match_convergence&quot;: {
+        &quot;level&quot;: 2,
+        &quot;x&quot;: 1060,
+        &quot;y&quot;: 205
+      },
+      &quot;match_registry&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 1160,
+        &quot;y&quot;: 320
+      },
+      &quot;public_employer_build&quot;: {
+        &quot;level&quot;: 0,
+        &quot;width&quot;: 180,
+        &quot;x&quot;: 1160,
+        &quot;y&quot;: 515
+      },
+      &quot;review_model_corpus&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 1050,
+        &quot;y&quot;: 835
+      },
+      &quot;rf_adj_classification&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 250,
+        &quot;y&quot;: 325
+      },
+      &quot;secure_runtime&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 1400,
+        &quot;y&quot;: 410
+      },
+      &quot;source_authorities&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 205,
+        &quot;y&quot;: 195
+      },
+      &quot;source_observations&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 90,
+        &quot;y&quot;: 250
+      },
+      &quot;sphere_journeys&quot;: {
+        &quot;level&quot;: 2,
+        &quot;x&quot;: 1450,
+        &quot;y&quot;: 330
+      },
+      &quot;supervisor_control_plane&quot;: {
+        &quot;level&quot;: 0,
+        &quot;width&quot;: 190,
+        &quot;x&quot;: 570,
+        &quot;y&quot;: 795
+      },
+      &quot;sysmap_model&quot;: {
+        &quot;level&quot;: 1,
+        &quot;x&quot;: 920,
+        &quot;y&quot;: 840
+      }
+    },
+    &quot;layout_version&quot;: 1
+  },
+  &quot;maturity_values&quot;: [
+    &quot;canonical&quot;,
+    &quot;experiment&quot;,
+    &quot;legacy&quot;,
+    &quot;one_off&quot;,
+    &quot;repeated&quot;,
+    &quot;reusable&quot;
+  ],
+  &quot;model_digest&quot;: &quot;6f66acec3abd6fd7b51b712d1281364aa2675d959ba3be8e116b74e1e49a2556&quot;,
+  &quot;model_id&quot;: &quot;jobsearch_sysmap&quot;,
+  &quot;name&quot;: &quot;Jobsearch System Map&quot;,
+  &quot;process_patterns&quot;: [
+    {
+      &quot;id&quot;: &quot;canonical_convergence_pattern&quot;,
+      &quot;instances&quot;: [
+        &quot;canonical_convergence&quot;,
+        &quot;match_convergence&quot;
+      ],
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Evidence to canonical convergence&quot;,
+      &quot;stages&quot;: [
+        &quot;source evidence&quot;,
+        &quot;identity resolution&quot;,
+        &quot;canonical ID binding&quot;,
+        &quot;structural validation&quot;,
+        &quot;review&quot;,
+        &quot;human merge&quot;
+      ],
+      &quot;summary&quot;: &quot;Repeated pattern for turning heterogeneous evidence into exact durable canonical-ID-bound records without fuzzy downstream rebinding.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;public_projection_pattern&quot;,
+      &quot;instances&quot;: [
+        &quot;public_employer_build&quot;,
+        &quot;encrypted_bundle&quot;,
+        &quot;secure_runtime&quot;,
+        &quot;employer_landscape_ui&quot;
+      ],
+      &quot;maturity&quot;: &quot;canonical&quot;,
+      &quot;name&quot;: &quot;Authority to public-safe projection&quot;,
+      &quot;stages&quot;: [
+        &quot;read independent authorities&quot;,
+        &quot;join by canonical identity&quot;,
+        &quot;sanitize/private-field boundary&quot;,
+        &quot;derive presentation history&quot;,
+        &quot;encrypt transport&quot;,
+        &quot;render browser surface&quot;
+      ],
+      &quot;summary&quot;: &quot;Production publication preserves upstream authority boundaries while exposing one combined public-safe employer experience.&quot;
+    },
+    {
+      &quot;id&quot;: &quot;resumable_conveyor_pattern&quot;,
+      &quot;instances&quot;: [
+        &quot;assessment_conveyor&quot;,
+        &quot;careers_resolver&quot;
+      ],
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Resumable state conveyor&quot;,
+      &quot;stages&quot;: [
+        &quot;freeze or define cohort&quot;,
+        &quot;choose bounded unfinished batch&quot;,
+        &quot;process one record&quot;,
+        &quot;checkpoint immediately&quot;,
+        &quot;publish or summarize checkpoint&quot;,
+        &quot;continue until terminal&quot;
+      ],
+      &quot;summary&quot;: &quot;Durable small-batch processing where persistence is per record and batch size primarily controls execution/publication cadence.&quot;
+    },
+    {
+      &quot;candidate_instances&quot;: [
+        &quot;sysmap_model&quot;
+      ],
+      &quot;id&quot;: &quot;supervised_curation_pattern&quot;,
+      &quot;instances&quot;: [
+        &quot;match_convergence&quot;
+      ],
+      &quot;maturity&quot;: &quot;reusable&quot;,
+      &quot;name&quot;: &quot;Bounded AI-assisted curation&quot;,
+      &quot;stages&quot;: [
+        &quot;accepted evidence boundary&quot;,
+        &quot;bounded AI-assisted interpretation&quot;,
+        &quot;deterministic validation&quot;,
+        &quot;independent semantic review&quot;,
+        &quot;human merge&quot;
+      ],
+      &quot;summary&quot;: &quot;AI assists interpretation and proposal generation while deterministic gates and human curation retain authority.&quot;
+    }
+  ],
+  &quot;purpose&quot;: &quot;Curated semantic graph of the jobsearch system, its durable authorities, reusable processes, control surfaces and selected historical evolution.\n&quot;,
+  &quot;relationship_types&quot;: [
+    &quot;checkpoints&quot;,
+    &quot;classifies&quot;,
+    &quot;controls&quot;,
+    &quot;converges_into&quot;,
+    &quot;derives&quot;,
+    &quot;dispatches&quot;,
+    &quot;enriches&quot;,
+    &quot;keys&quot;,
+    &quot;observes&quot;,
+    &quot;projects&quot;,
+    &quot;publishes&quot;,
+    &quot;reads&quot;,
+    &quot;renders&quot;,
+    &quot;reviews&quot;,
+    &quot;supersedes&quot;,
+    &quot;virtualizes&quot;
+  ],
+  &quot;relationships&quot;: [
+    {
+      &quot;from&quot;: &quot;activity_history&quot;,
+      &quot;id&quot;: &quot;activity_drives_journeys&quot;,
+      &quot;summary&quot;: &quot;Activity sequences can drive finite canonical-ID navigation journeys.&quot;,
+      &quot;to&quot;: &quot;sphere_journeys&quot;,
+      &quot;type&quot;: &quot;projects&quot;
+    },
+    {
+      &quot;from&quot;: &quot;activity_history&quot;,
+      &quot;id&quot;: &quot;activity_publishes_bundle&quot;,
+      &quot;summary&quot;: &quot;Bounded semantic Activity history travels inside the encrypted employer payload.&quot;,
+      &quot;to&quot;: &quot;encrypted_bundle&quot;,
+      &quot;type&quot;: &quot;publishes&quot;
+    },
+    {
+      &quot;from&quot;: &quot;assessment_conveyor&quot;,
+      &quot;id&quot;: &quot;assessment_checkpoints_state&quot;,
+      &quot;summary&quot;: &quot;Each employer success or failure is checkpointed durably before publication cadence boundaries.&quot;,
+      &quot;to&quot;: &quot;assessment_state&quot;,
+      &quot;type&quot;: &quot;checkpoints&quot;
+    },
+    {
+      &quot;from&quot;: &quot;assessment_state&quot;,
+      &quot;id&quot;: &quot;assessment_enriches_public&quot;,
+      &quot;summary&quot;: &quot;Public-safe organisation assessment fields are joined into generated employers.&quot;,
+      &quot;to&quot;: &quot;public_employer_build&quot;,
+      &quot;type&quot;: &quot;enriches&quot;
+    },
+    {
+      &quot;from&quot;: &quot;source_authorities&quot;,
+      &quot;id&quot;: &quot;authorities_converge_canonical&quot;,
+      &quot;summary&quot;: &quot;Source-specific identities are resolved through canonical convergence.&quot;,
+      &quot;to&quot;: &quot;canonical_convergence&quot;,
+      &quot;type&quot;: &quot;converges_into&quot;
+    },
+    {
+      &quot;from&quot;: &quot;source_authorities&quot;,
+      &quot;id&quot;: &quot;authorities_feed_classification&quot;,
+      &quot;summary&quot;: &quot;Source evidence supports RF-core or engineering-adjacent relevance judgement.&quot;,
+      &quot;to&quot;: &quot;rf_adj_classification&quot;,
+      &quot;type&quot;: &quot;classifies&quot;
+    },
+    {
+      &quot;from&quot;: &quot;encrypted_bundle&quot;,
+      &quot;id&quot;: &quot;bundle_virtualized_runtime&quot;,
+      &quot;summary&quot;: &quot;Browser runtime decrypts the bundle and synthesizes JSON responses for application code.&quot;,
+      &quot;to&quot;: &quot;secure_runtime&quot;,
+      &quot;type&quot;: &quot;virtualizes&quot;
+    },
+    {
+      &quot;from&quot;: &quot;canonical_registry&quot;,
+      &quot;id&quot;: &quot;canonical_enriches_public&quot;,
+      &quot;summary&quot;: &quot;Canonical identity is the base identity layer of the generated employer projection.&quot;,
+      &quot;to&quot;: &quot;public_employer_build&quot;,
+      &quot;type&quot;: &quot;projects&quot;
+    },
+    {
+      &quot;from&quot;: &quot;canonical_registry&quot;,
+      &quot;id&quot;: &quot;canonical_keys_assessment&quot;,
+      &quot;summary&quot;: &quot;Organisation assessment is keyed by immutable canonical employer ID.&quot;,
+      &quot;to&quot;: &quot;assessment_state&quot;,
+      &quot;type&quot;: &quot;keys&quot;
+    },
+    {
+      &quot;from&quot;: &quot;canonical_registry&quot;,
+      &quot;id&quot;: &quot;canonical_keys_careers&quot;,
+      &quot;summary&quot;: &quot;Careers research consumes canonical employer identity but remains independent operational state.&quot;,
+      &quot;to&quot;: &quot;careers_state&quot;,
+      &quot;type&quot;: &quot;keys&quot;
+    },
+    {
+      &quot;from&quot;: &quot;canonical_registry&quot;,
+      &quot;id&quot;: &quot;canonical_keys_match&quot;,
+      &quot;summary&quot;: &quot;Match/alignment records bind by exact employer_canonical_id.&quot;,
+      &quot;to&quot;: &quot;match_registry&quot;,
+      &quot;type&quot;: &quot;keys&quot;
+    },
+    {
+      &quot;from&quot;: &quot;careers_state&quot;,
+      &quot;id&quot;: &quot;careers_enriches_public&quot;,
+      &quot;summary&quot;: &quot;Sanitized careers state augments generated public employer records.&quot;,
+      &quot;to&quot;: &quot;public_employer_build&quot;,
+      &quot;type&quot;: &quot;enriches&quot;
+    },
+    {
+      &quot;from&quot;: &quot;rf_adj_classification&quot;,
+      &quot;id&quot;: &quot;classification_converges_canonical&quot;,
+      &quot;summary&quot;: &quot;RF/ADJ designation is retained as classification metadata around canonical identity.&quot;,
+      &quot;to&quot;: &quot;canonical_registry&quot;,
+      &quot;type&quot;: &quot;enriches&quot;
+    },
+    {
+      &quot;from&quot;: &quot;companies_curation&quot;,
+      &quot;id&quot;: &quot;companies_render_public_ui&quot;,
+      &quot;summary&quot;: &quot;Companies is a sibling curated public intelligence surface rather than part of canonical employer authority.&quot;,
+      &quot;to&quot;: &quot;employer_landscape_ui&quot;,
+      &quot;type&quot;: &quot;reviews&quot;
+    },
+    {
+      &quot;from&quot;: &quot;canonical_convergence&quot;,
+      &quot;id&quot;: &quot;convergence_writes_canonical&quot;,
+      &quot;summary&quot;: &quot;Accepted identity convergence resolves source identities onto durable ce_ employer records.&quot;,
+      &quot;to&quot;: &quot;canonical_registry&quot;,
+      &quot;type&quot;: &quot;converges_into&quot;
+    },
+    {
+      &quot;from&quot;: &quot;employer_landscape_ui&quot;,
+      &quot;id&quot;: &quot;landscape_hosts_journeys&quot;,
+      &quot;summary&quot;: &quot;Sequence and Sphere interaction primitives operate within the Employer Landscape UI.&quot;,
+      &quot;to&quot;: &quot;sphere_journeys&quot;,
+      &quot;type&quot;: &quot;renders&quot;
+    },
+    {
+      &quot;from&quot;: &quot;match_convergence&quot;,
+      &quot;id&quot;: &quot;match_convergence_curates_registry&quot;,
+      &quot;summary&quot;: &quot;Accepted evidence is translated into validated curated match/alignment records for human merge.&quot;,
+      &quot;to&quot;: &quot;match_registry&quot;,
+      &quot;type&quot;: &quot;projects&quot;
+    },
+    {
+      &quot;from&quot;: &quot;match_registry&quot;,
+      &quot;id&quot;: &quot;match_enriches_public&quot;,
+      &quot;summary&quot;: &quot;Sanitized canonical-ID-bound Match/alignment projection augments generated employers.&quot;,
+      &quot;to&quot;: &quot;public_employer_build&quot;,
+      &quot;type&quot;: &quot;enriches&quot;
+    },
+    {
+      &quot;from&quot;: &quot;source_observations&quot;,
+      &quot;id&quot;: &quot;observations_feed_authorities&quot;,
+      &quot;summary&quot;: &quot;Source observations are normalized into source-specific employer authorities.&quot;,
+      &quot;to&quot;: &quot;source_authorities&quot;,
+      &quot;type&quot;: &quot;observes&quot;
+    },
+    {
+      &quot;from&quot;: &quot;public_employer_build&quot;,
+      &quot;id&quot;: &quot;public_derives_activity&quot;,
+      &quot;summary&quot;: &quot;Semantic Activity records are derived from public-safe state transitions rather than becoming an upstream authority.&quot;,
+      &quot;to&quot;: &quot;activity_history&quot;,
+      &quot;type&quot;: &quot;derives&quot;
+    },
+    {
+      &quot;from&quot;: &quot;public_employer_build&quot;,
+      &quot;id&quot;: &quot;public_projection_feeds_review&quot;,
+      &quot;summary&quot;: &quot;The review corpus republishes the same public-safe employer projection for deterministic plaintext inspection.&quot;,
+      &quot;to&quot;: &quot;review_model_corpus&quot;,
+      &quot;type&quot;: &quot;projects&quot;
+    },
+    {
+      &quot;from&quot;: &quot;public_employer_build&quot;,
+      &quot;id&quot;: &quot;public_publishes_bundle&quot;,
+      &quot;summary&quot;: &quot;Generated employer data is bundled with jobs/automation and encrypted for public transport.&quot;,
+      &quot;to&quot;: &quot;encrypted_bundle&quot;,
+      &quot;type&quot;: &quot;publishes&quot;
+    },
+    {
+      &quot;from&quot;: &quot;careers_resolver&quot;,
+      &quot;id&quot;: &quot;resolver_checkpoints_careers&quot;,
+      &quot;summary&quot;: &quot;Learned routes and careers evidence are persisted into resumable careers state.&quot;,
+      &quot;to&quot;: &quot;careers_state&quot;,
+      &quot;type&quot;: &quot;checkpoints&quot;
+    },
+    {
+      &quot;from&quot;: &quot;secure_runtime&quot;,
+      &quot;id&quot;: &quot;secure_runtime_renders_landscape&quot;,
+      &quot;summary&quot;: &quot;Employer Landscape consumes the virtualized decrypted employer dataset.&quot;,
+      &quot;to&quot;: &quot;employer_landscape_ui&quot;,
+      &quot;type&quot;: &quot;renders&quot;
+    },
+    {
+      &quot;from&quot;: &quot;supervisor_control_plane&quot;,
+      &quot;id&quot;: &quot;supervisor_controls_assessment&quot;,
+      &quot;summary&quot;: &quot;The supervisor owns the bounded production assessment conveyor.&quot;,
+      &quot;to&quot;: &quot;assessment_conveyor&quot;,
+      &quot;type&quot;: &quot;controls&quot;
+    },
+    {
+      &quot;from&quot;: &quot;supervisor_control_plane&quot;,
+      &quot;id&quot;: &quot;supervisor_supports_match_convergence&quot;,
+      &quot;summary&quot;: &quot;Bounded supervisor workers can prepare and independently review proposed Match registry changes.&quot;,
+      &quot;to&quot;: &quot;match_convergence&quot;,
+      &quot;type&quot;: &quot;controls&quot;
+    },
+    {
+      &quot;from&quot;: &quot;sysmap_model&quot;,
+      &quot;id&quot;: &quot;sysmap_renders_public&quot;,
+      &quot;summary&quot;: &quot;SysMap is intended as a sibling top-level WWW surface, not as an employer-data authority.&quot;,
+      &quot;to&quot;: &quot;employer_landscape_ui&quot;,
+      &quot;type&quot;: &quot;renders&quot;
+    },
+    {
+      &quot;from&quot;: &quot;supervisor_control_plane&quot;,
+      &quot;id&quot;: &quot;system_evidence_curates_sysmap&quot;,
+      &quot;summary&quot;: &quot;Future bounded supervisor archaeology may propose evidence-backed SysMap deltas, subject to curation.&quot;,
+      &quot;to&quot;: &quot;sysmap_model&quot;,
+      &quot;type&quot;: &quot;reviews&quot;
+    }
+  ],
+  &quot;review&quot;: {
+    &quot;cadence&quot;: &quot;weekly&quot;,
+    &quot;curated_authority&quot;: &quot;sysmap_yaml&quot;,
+    &quot;mode&quot;: &quot;propose_only&quot;
+  },
+  &quot;schema_version&quot;: 0.2,
+  &quot;status&quot;: &quot;curated_foundation_v1&quot;,
+  &quot;visual_defaults&quot;: {
+    &quot;backbone_only&quot;: true,
+    &quot;detail_mode&quot;: &quot;side_panel&quot;,
+    &quot;max_primary_nodes&quot;: 25,
+    &quot;progressive_disclosure&quot;: true,
+    &quot;show_historical&quot;: false,
+    &quot;show_relationship_labels&quot;: false,
+    &quot;spatial_metaphor&quot;: &quot;converging_territories&quot;
+  }
+}</pre></main><footer><p class="muted"><small>Plain HTML. No JavaScript, encrypted payload, runtime API, MCP or connector is required to read these pages.</small></p></footer></body></html>

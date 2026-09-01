@@ -1,42 +1,39 @@
-# Employer Landscape Review Mirror
+# Whole-site Review Mirror
 
-This is a temporary, static, plaintext review publication intended for ordinary WWW and LLM/browser visitors.
-Do not use GitHub repository/API/MCP/connector access merely to understand the published employer data.
+This is the temporary, static, plaintext, LLM-readable projection of the useful public jobsearch site information.
+Use these ordinary WWW pages rather than GitHub repository/API/MCP access when reviewing published content.
+
+## Main surfaces
+
+- Site overview: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/
+- Jobs: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/jobs/
+- Employer Landscape: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/employers/
+- Curated Companies dossiers: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/companies/
+- Automation/status: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/automation/
+- SysMap: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sysmap/
+- RF + ADJ employer corpus: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/index.html
+- Employer RF + ADJ filter: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf-adj.html
+- Employer RF-only filter: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf.html
+- Matches: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/matches/
+- Matched roles: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/roles/
+- Resonators: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/resonators/
+
+## Machine-readable entry points
+
+- Whole-site manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/site/manifest.json
+- Jobs manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/jobs/manifest.json
+- Companies manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/companies/manifest.json
+- Existing compact employer inventory: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/index.txt
+- Whole-site static sitemap: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sitemap.xml
 
 ## Snapshot
 
-- Complete employer entries: 2307
-- Source observations: 2334
-- Canonical-priority RF employers: 305
-- Canonical-priority RF + ADJ employers: 624
-- Matched companies: 16
-- Matched roles: 17
-- Company resonators: 9
+- Allow-listed jobs: 2
+- Curated Companies dossiers: 11
 
-## Model-oriented employer-card corpus
+Employer pages contain the systematic canonical identity, descriptions, relevance, careers research, current researched roles, organisation assessment and Match/resonator projection where available.
+Companies pages contain the separate manually curated dossier material and should not be treated as interchangeable with the systematic Employer Landscape.
+Jobs pages contain the allow-listed published job-information cards.
+Automation and SysMap pages expose their existing public-safe published projections in directly readable form.
 
-For systematic employer-card review, start here:
-- RF + ADJ corpus index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/index.html
-- Corpus manifest: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/model/rf-adj/manifest.json
-- Cohort size: 624
-- Employers with current published assessment data: 624
-
-The corpus is sharded in deterministic publication order and contains compact card-equivalent identity, canonical relevance, assessment, careers-summary and Match information. Use individual employer pages for expanded role lists.
-
-## Recommended reading order
-
-1. Complete review landing page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/review-snapshot.html
-2. RF + ADJ focused employer view: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf-adj.html
-3. RF-only focused employer view: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/filters/rf.html
-4. Complete employer index: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/employers/index.html
-5. Full compact machine-readable inventory: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/index.txt
-6. Matched companies: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/matches/index.html
-7. Matched roles: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/roles/index.html
-8. Company resonators: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/resonators/index.html
-9. Sitemap of every static page: https://0xf00115h.github.io/review-ae81dc5e1a5c3f7ec5b4e5dcef5a07e5/sitemap.xml
-
-RF means canonical-priority RF-core employers. RF + ADJ means canonical-priority RF-core plus engineering-adjacent employers. These reproduce the useful relevance-scope semantics of the interactive Employer Landscape.
-
-The complete employer index is alphabetically sharded. Follow individual employer links for descriptions, directory provenance, canonical relevance, careers research, current jobs and Match data where present.
-
-All substantive review pages are static HTML. There is no JavaScript data loader, encrypted payload, or runtime API requirement.
+All substantive review pages are static HTML or JSON. No JavaScript loader, encrypted payload, runtime API or browser unlock is required.

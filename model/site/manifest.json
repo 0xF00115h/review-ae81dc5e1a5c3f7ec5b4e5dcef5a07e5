@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "surfaces": [
+    "jobs",
+    "employers",
+    "companies",
+    "automation",
+    "sysmap",
+    "model/rf-adj"
+  ],
+  "jobs": 2,
+  "companies": 11
+}
