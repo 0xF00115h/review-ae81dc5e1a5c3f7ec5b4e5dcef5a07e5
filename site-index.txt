@@ -1,6 +1,6 @@
 whole_site_review_v1
 jobs=2
-curated_companies=18
+curated_companies=19
 surfaces=jobs,employers,companies,automation,sysmap,model/rf-adj
 
 [main]
