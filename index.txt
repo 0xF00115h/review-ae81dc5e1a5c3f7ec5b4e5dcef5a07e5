@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2361
+landscape_entries=2360
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -462,7 +462,6 @@ Clas-SiC | ADJ | jobs=2 |  | employers/clas-sic.html
 Clause and Effect | Unresolved | jobs=0 |  | employers/clause-and-effect.html
 Clear Mobitel Limited | RF | jobs=0 |  | employers/clear-mobitel-limited.html
 Clicks and Links Ltd | Unresolved | jobs=0 |  | employers/clicks-and-links-ltd.html
-Cloud-RF | RF | jobs=0 |  | employers/cloud-rf.html
 CloudNet IT Solutions | Unresolved | jobs=0 |  | employers/cloudnet-it-solutions.html
 CloudRF | RF | jobs=1 |  | employers/cloudrf.html
 CML Micro | RF | jobs=0 |  | employers/cml-micro.html
