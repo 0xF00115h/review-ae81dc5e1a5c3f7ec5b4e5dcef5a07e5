@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2366
+landscape_entries=2367
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -704,6 +704,7 @@ Emirates ICT Innovation Center (EBTIC) | Unresolved | jobs=0 |  | employers/emir
 emr | Unresolved | jobs=0 |  | employers/emr.html
 EMTELLE | RF | jobs=1 |  | employers/emtelle.html
 Emu Analytics Ltd | Unresolved | jobs=0 |  | employers/emu-analytics-ltd.html
+Encortec Ltd | ADJ | jobs=0 |  | employers/encortec-ltd.html
 Encounters Festival | Unresolved | jobs=0 |  | employers/encounters-festival.html
 Energy Systems Catapult | ADJ | jobs=1 |  | employers/energy-systems-catapult.html
 ENGIE | ADJ | jobs=0 |  | employers/engie.html
