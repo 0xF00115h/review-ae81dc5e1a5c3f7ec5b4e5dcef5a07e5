@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2367
+landscape_entries=2369
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -79,6 +79,7 @@ Aerial Target Systems Ltd | Unresolved | jobs=0 |  | employers/aerial-target-sys
 Aetha Consulting | RF | jobs=1 |  | employers/aetha-consulting.html
 Afallen LLP | Unresolved | jobs=0 |  | employers/afallen-llp.html
 Age UK | Unresolved | jobs=0 |  | employers/age-uk.html
+Agilent | ADJ | jobs=0 |  | employers/agilent.html
 Agilyx Group | Unresolved | jobs=0 |  | employers/agilyx-group.html
 Agorai | Unresolved | jobs=0 |  | employers/agorai.html
 Agri-EPI Centre | Unresolved | jobs=0 |  | employers/agri-epi-centre.html
@@ -1085,6 +1086,7 @@ Instinctively Real Media | Unresolved | jobs=0 |  | employers/instinctively-real
 Institute for Information Industry (Taiwan) | Unresolved | jobs=8 |  | employers/institute-for-information-industry-taiwan.html
 Institute of Telecommunications Professionals (The ITP) | Unresolved | jobs=1 |  | employers/institute-of-telecommunications-professionals-the-itp.html
 IntechnologyWiFi | Unresolved | jobs=0 |  | employers/intechnologywifi.html
+Integrated Graphene Ltd | ADJ | jobs=0 |  | employers/integrated-graphene-ltd.html
 Intel Corporation UK Ltd | ADJ | jobs=5 |  | employers/intel-corporation-uk-ltd.html
 Intellegens Limited | ADJ | jobs=2 |  | employers/intellegens-limited.html
 Intellian Technologies | RF | jobs=0 |  | employers/intellian-technologies.html
