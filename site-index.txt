@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2369
+landscape_entries=2370
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -573,6 +573,7 @@ Crowd Frame Consulting | Unresolved | jobs=0 |  | employers/crowd-frame-consulti
 Crypta Labs | ADJ | jobs=0 |  | employers/crypta-labs.html
 Crypta Labs Ltd | Unresolved | jobs=0 |  | employers/crypta-labs-ltd.html
 CSE Crosscom | ADJ | jobs=0 |  | employers/cse-crosscom.html
+CSignum | ADJ | jobs=0 |  | employers/csignum.html
 CSW | Unresolved | jobs=0 |  | employers/csw.html
 CTIL | Unresolved | jobs=0 |  | employers/ctil.html
 ctm Information Technology | Unresolved | jobs=2 |  | employers/ctm-information-technology.html
