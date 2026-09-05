@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2370
+landscape_entries=2371
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -600,6 +600,7 @@ DAC Beachcroft | Unresolved | jobs=0 |  | employers/dac-beachcroft.html
 Daikin | ADJ | jobs=0 |  | employers/daikin.html
 Daintta | ADJ | jobs=0 |  | employers/daintta.html
 Dance East | Unresolved | jobs=0 |  | employers/dance-east.html
+Databuzz | ADJ | jobs=0 |  | employers/databuzz.html
 DataQube Global Ltd | Unresolved | jobs=0 |  | employers/dataqube-global-ltd.html
 David Lodge Lighting Ltd | Unresolved | jobs=0 |  | employers/david-lodge-lighting-ltd.html
 Day One People | Unresolved | jobs=0 |  | employers/day-one-people.html
