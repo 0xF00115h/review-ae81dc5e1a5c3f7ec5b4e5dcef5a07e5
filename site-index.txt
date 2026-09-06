@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2372
+landscape_entries=2373
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1630,6 +1630,7 @@ PolyChord Ltd | Unresolved | jobs=0 |  | employers/polychord-ltd.html
 Polysolar | Unresolved | jobs=0 |  | employers/polysolar.html
 POLYTRADE GLOBAL SRL | Unresolved | jobs=0 |  | employers/polytrade-global-srl.html
 Poplar | Unresolved | jobs=0 |  | employers/poplar.html
+Portal Biotech | ADJ | jobs=0 |  | employers/portal-biotech.html
 Portsmouth City Council | Unresolved | jobs=0 |  | employers/portsmouth-city-council.html
 Potter Clarkson LLP | Unresolved | jobs=0 |  | employers/potter-clarkson-llp.html
 Power Networks Demonstration Centre | Unresolved | jobs=0 |  | employers/power-networks-demonstration-centre.html
