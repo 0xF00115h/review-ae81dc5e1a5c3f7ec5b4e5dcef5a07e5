@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2371
+landscape_entries=2372
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1849,6 +1849,7 @@ Sheffield City Council | Unresolved | jobs=0 |  | employers/sheffield-city-counc
 Sheffield Live Radio Station | Unresolved | jobs=0 |  | employers/sheffield-live-radio-station.html
 Shenton Group | Unresolved | jobs=0 |  | employers/shenton-group.html
 Shields | Unresolved | jobs=0 |  | employers/shields.html
+Shore Design Consultancy | ADJ | jobs=0 |  | employers/shore-design-consultancy.html
 Shropshire County Council | Unresolved | jobs=0 |  | employers/shropshire-county-council.html
 Siemens | Unresolved | jobs=0 |  | employers/siemens.html
 Siemens EDA (Tessent Embedded Analytics) | ADJ | jobs=3 |  | employers/siemens-eda-tessent-embedded-analytics.html
