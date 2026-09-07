@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2375
+landscape_entries=2376
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1630,6 +1630,7 @@ Procellia Ltd | Unresolved | jobs=0 |  | employers/procellia-ltd.html
 Procul-iot | Unresolved | jobs=0 |  | employers/procul-iot.html
 Progen Power Ltd | Unresolved | jobs=0 |  | employers/progen-power-ltd.html
 Project Cambridge | Unresolved | jobs=0 |  | employers/project-cambridge.html
+Protec Fire and Security Group | ADJ | jobs=0 |  | employers/protec-fire-and-security-group.html
 Proximity Data Centres Limited | Unresolved | jobs=0 |  | employers/proximity-data-centres-limited.html
 Proximus | RF | jobs=50 |  | employers/proximus.html
 Prudentia Health Group | Unresolved | jobs=0 |  | employers/prudentia-health-group.html
