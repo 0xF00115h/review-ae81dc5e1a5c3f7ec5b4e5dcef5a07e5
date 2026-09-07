@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2373
+landscape_entries=2375
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -712,6 +712,7 @@ efreight.uk | Unresolved | jobs=0 |  | employers/efreight-uk.html
 EH Consultants | Unresolved | jobs=0 |  | employers/eh-consultants.html
 eHealth Cluster | Unresolved | jobs=0 |  | employers/ehealth-cluster.html
 Eirteic | Unresolved | jobs=0 |  | employers/eirteic.html
+ElectraDx | ADJ | jobs=0 |  | employers/electradx.html
 Electric Future | Unresolved | jobs=0 |  | employers/electric-future.html
 Electro Rent | ADJ | jobs=0 |  | employers/electro-rent.html
 Electronic Communications Office of Latvia | Unresolved | jobs=0 |  | employers/electronic-communications-office-of-latvia.html
@@ -875,6 +876,7 @@ Garland Partners Limited | Unresolved | jobs=0 |  | employers/garland-partners-l
 Gartner | Unresolved | jobs=0 |  | employers/gartner.html
 Gate One | Unresolved | jobs=0 |  | employers/gate-one.html
 GCHQ | RF | jobs=0 |  | employers/gchq.html
+GE Aerospace | ADJ | jobs=0 |  | employers/ge-aerospace.html
 Geleval | Unresolved | jobs=0 |  | employers/geleval.html
 GemaSecure Ltd | Unresolved | jobs=0 |  | employers/gemasecure-ltd.html
 Genevisio | Unresolved | jobs=0 |  | employers/genevisio.html
