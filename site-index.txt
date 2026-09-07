@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2376
+landscape_entries=2378
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -738,6 +738,7 @@ ENGIE | ADJ | jobs=0 |  | employers/engie.html
 Engineering the Blue Limited | ADJ | jobs=0 |  | employers/engineering-the-blue-limited.html
 English Heritage | Unresolved | jobs=0 |  | employers/english-heritage.html
 Enigma Net Inc Limited | ADJ | jobs=0 |  | employers/enigma-net-inc-limited.html
+Ensera Design | ADJ | jobs=0 |  | employers/ensera-design.html
 EnSilica plc | RF | jobs=0 |  | employers/ensilica-plc.html
 Entrust Services | Unresolved | jobs=0 |  | employers/entrust-services.html
 Enverse | Unresolved | jobs=2 |  | employers/enverse.html
@@ -1806,6 +1807,7 @@ SapCode | Unresolved | jobs=0 |  | employers/sapcode.html
 Sapere Software | Unresolved | jobs=0 |  | employers/sapere-software.html
 Sapttech Labs | Unresolved | jobs=0 |  | employers/sapttech-labs.html
 SARgard Ltd | RF | jobs=0 |  | employers/sargard-ltd.html
+Sartorius | ADJ | jobs=0 |  | employers/sartorius.html
 Satavia Ltd | Unresolved | jobs=0 |  | employers/satavia-ltd.html
 Satellite Applications Catapult | ADJ | jobs=2 |  | employers/satellite-applications-catapult.html
 SatixFy | Unresolved | jobs=0 |  | employers/satixfy.html
