@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2378
+landscape_entries=2379
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -92,6 +92,7 @@ Airbus | ADJ | jobs=14 |  | employers/airbus.html
 Airgain | RF | jobs=0 |  | employers/airgain.html
 Airspan | RF | jobs=2 |  | employers/airspan.html
 Airtel | Unresolved | jobs=0 |  | employers/airtel.html
+Airwave UK | RF | jobs=0 |  | employers/airwave-uk.html
 Airworking | Unresolved | jobs=0 |  | employers/airworking.html
 aitos.io | Unresolved | jobs=0 |  | employers/aitos-io.html
 Ajenta | Unresolved | jobs=0 |  | employers/ajenta.html
