@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2379
+landscape_entries=2380
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -689,6 +689,7 @@ DWF Group | Unresolved | jobs=0 |  | employers/dwf-group.html
 Dynamic Concepts | Unresolved | jobs=0 |  | employers/dynamic-concepts.html
 Dynamic Electronics | Unresolved | jobs=1 |  | employers/dynamic-electronics.html
 Dynova limited | Unresolved | jobs=0 |  | employers/dynova-limited.html
+Dyson | ADJ | jobs=0 |  | employers/dyson.html
 DZP Technologies | ADJ | jobs=0 |  | employers/dzp-technologies.html
 e-Tuitions Learning Private Limited | Unresolved | jobs=0 |  | employers/e-tuitions-learning-private-limited.html
 e2E Services Ltd. | Unresolved | jobs=0 |  | employers/e2e-services-ltd.html
