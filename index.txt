@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2380
+landscape_entries=2381
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -271,6 +271,7 @@ BFI | Unresolved | jobs=0 |  | employers/bfi.html
 Bioratorium | Unresolved | jobs=0 |  | employers/bioratorium.html
 BIP | Unresolved | jobs=0 |  | employers/bip.html
 Bird & Bird LLP | Unresolved | jobs=0 |  | employers/bird-bird-llp.html
+Biricha Digital Power | ADJ | jobs=0 |  | employers/biricha-digital-power.html
 Birketts LLP | Unresolved | jobs=50 |  | employers/birketts-llp.html
 bit Computing | Unresolved | jobs=0 |  | employers/bit-computing.html
 Blabbermouth Marketing | Unresolved | jobs=0 |  | employers/blabbermouth-marketing.html
