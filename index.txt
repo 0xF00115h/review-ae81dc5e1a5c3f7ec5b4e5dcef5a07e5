@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2381
+landscape_entries=2382
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -2382,6 +2382,7 @@ Zeetta Networks | Unresolved | jobs=0 |  | employers/zeetta-networks.html
 Zenic8 EMEA | Unresolved | jobs=0 |  | employers/zenic8-emea.html
 Zenzic | Unresolved | jobs=0 |  | employers/zenzic.html
 Zero Host Ltd | Unresolved | jobs=0 |  | employers/zero-host-ltd.html
+Zero Point Motion | ADJ | jobs=0 |  | employers/zero-point-motion.html
 Zfort Group | ADJ | jobs=2 |  | employers/zfort-group.html
 Ziegal | Unresolved | jobs=0 |  | employers/ziegal.html
 Zixi | ADJ | jobs=2 |  | employers/zixi.html
