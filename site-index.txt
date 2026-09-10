@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2383
+landscape_entries=2385
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1566,6 +1566,7 @@ Opient | Unresolved | jobs=0 |  | employers/opient.html
 Opious | Unresolved | jobs=0 |  | employers/opious.html
 OppiSec Ltd | ADJ | jobs=0 |  | employers/oppisec-ltd.html
 OPTIF | Unresolved | jobs=0 |  | employers/optif.html
+OQC | ADJ | jobs=0 |  | employers/oqc.html
 Oracle | Unresolved | jobs=0 |  | employers/oracle.html
 Orange | RF | jobs=0 |  | employers/orange.html
 Orange Bus | Unresolved | jobs=0 |  | employers/orange-bus.html
@@ -2161,6 +2162,7 @@ Tribus-D | RF | jobs=0 |  | employers/tribus-d.html
 Trilby Shipping Ltd | Unresolved | jobs=0 |  | employers/trilby-shipping-ltd.html
 Trinity College Dublin | ADJ | jobs=0 |  | employers/trinity-college-dublin.html
 Trio Engineering Company Ltd. | Unresolved | jobs=0 |  | employers/trio-engineering-company-ltd.html
+Trio Motion Technology | ADJ | jobs=0 |  | employers/trio-motion-technology.html
 TripCenter | Unresolved | jobs=0 |  | employers/tripcenter.html
 TRL | Unresolved | jobs=0 |  | employers/trl.html
 Trowers & Hamlins | Unresolved | jobs=0 |  | employers/trowers-hamlins.html
