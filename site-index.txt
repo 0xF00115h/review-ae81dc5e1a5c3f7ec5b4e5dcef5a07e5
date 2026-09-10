@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2382
+landscape_entries=2383
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -881,6 +881,7 @@ Gartner | Unresolved | jobs=0 |  | employers/gartner.html
 Gate One | Unresolved | jobs=0 |  | employers/gate-one.html
 GCHQ | RF | jobs=0 |  | employers/gchq.html
 GE Aerospace | ADJ | jobs=0 |  | employers/ge-aerospace.html
+GE Vernova | ADJ | jobs=0 |  | employers/ge-vernova.html
 Geleval | Unresolved | jobs=0 |  | employers/geleval.html
 GemaSecure Ltd | Unresolved | jobs=0 |  | employers/gemasecure-ltd.html
 Genevisio | Unresolved | jobs=0 |  | employers/genevisio.html
