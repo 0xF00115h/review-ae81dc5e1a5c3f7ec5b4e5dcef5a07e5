@@ -1,7 +1,7 @@
 {
   "snapshot_date": "2026-08-22",
-  "landscape_entries": 2385,
-  "rf_adj_entries": 704,
+  "landscape_entries": 2386,
+  "rf_adj_entries": 705,
   "assessed_entries": 679,
   "assessment": {
     "status": "complete",
@@ -227,10 +227,10 @@
       "count": 20
     },
     {
-      "stem": "701-704",
+      "stem": "701-705",
       "first": 701,
-      "last": 704,
-      "count": 4
+      "last": 705,
+      "count": 5
     }
   ]
 }

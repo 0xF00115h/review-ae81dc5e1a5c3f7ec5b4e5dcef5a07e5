@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2385
+landscape_entries=2386
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1401,6 +1401,7 @@ Mova | RF | jobs=0 |  | employers/mova.html
 Movicel | Unresolved | jobs=0 |  | employers/movicel.html
 MPD Media | Unresolved | jobs=0 |  | employers/mpd-media.html
 Mpirical | Unresolved | jobs=1 |  | employers/mpirical.html
+MSD Animal Health | ADJ | jobs=0 |  | employers/msd-animal-health.html
 MSI UK | Unresolved | jobs=0 |  | employers/msi-uk.html
 MSL Projects | Unresolved | jobs=0 |  | employers/msl-projects.html
 MTN | RF | jobs=0 |  | employers/mtn.html
