@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2386
+landscape_entries=2387
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -853,6 +853,7 @@ GameBench | ADJ | jobs=0 |  | employers/gamebench.html
 Gamma | RF | jobs=29 |  | employers/gamma.html
 Gamma Telecom | Unresolved | jobs=29 |  | employers/gamma-telecom.html
 Gamoola | Unresolved | jobs=0 |  | employers/gamoola.html
+Gardasoft Vision | ADJ | jobs=0 |  | employers/gardasoft-vision.html
 Garland Partners Limited | Unresolved | jobs=0 |  | employers/garland-partners-limited.html
 Gartner | Unresolved | jobs=0 |  | employers/gartner.html
 Gate One | Unresolved | jobs=0 |  | employers/gate-one.html
