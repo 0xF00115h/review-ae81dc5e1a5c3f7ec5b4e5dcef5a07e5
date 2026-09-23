@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2387
+landscape_entries=2388
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -2152,6 +2152,7 @@ Turkcell | RF | jobs=7 |  | employers/turkcell.html
 Turner & Townsend | Unresolved | jobs=0 |  | employers/turner-townsend.html
 TusPark Holdings UK | Unresolved | jobs=0 |  | employers/tuspark-holdings-uk.html
 TWI | ADJ | jobs=0 |  | employers/twi.html
+TXO Group | ADJ | jobs=0 |  | employers/txo-group.html
 u-blox | RF | jobs=0 |  | employers/u-blox.html
 UBCS CO., LTD. | Unresolved | jobs=0 |  | employers/ubcs-co-ltd.html
 Ubicquia | Unresolved | jobs=0 |  | employers/ubicquia.html
