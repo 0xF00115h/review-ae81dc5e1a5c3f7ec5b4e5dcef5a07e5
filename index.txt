@@ -1,5 +1,5 @@
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2388
+landscape_entries=2390
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -263,6 +263,7 @@ Benetel | RF | jobs=4 |  | employers/benetel.html
 Benn Consulting Ltd | ADJ | jobs=0 |  | employers/benn-consulting-ltd.html
 Bentley Motors Limited | Unresolved | jobs=0 |  | employers/bentley-motors-limited.html
 Beringar | Unresolved | jobs=0 |  | employers/beringar.html
+Bermondsey Electronics | ADJ | jobs=0 |  | employers/bermondsey-electronics.html
 Bespoke Lighting & Video | Unresolved | jobs=0 |  | employers/bespoke-lighting-video.html
 BetaDen | Unresolved | jobs=0 |  | employers/betaden.html
 BeTomorrow | Unresolved | jobs=0 |  | employers/betomorrow.html
@@ -1380,6 +1381,7 @@ Movicel | Unresolved | jobs=0 |  | employers/movicel.html
 MPD Media | Unresolved | jobs=0 |  | employers/mpd-media.html
 Mpirical | Unresolved | jobs=1 |  | employers/mpirical.html
 MSD Animal Health | ADJ | jobs=0 |  | employers/msd-animal-health.html
+MSD UK | ADJ | jobs=0 |  | employers/msd-uk.html
 MSI UK | Unresolved | jobs=0 |  | employers/msi-uk.html
 MSL Projects | Unresolved | jobs=0 |  | employers/msl-projects.html
 MTN | RF | jobs=0 |  | employers/mtn.html
