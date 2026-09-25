@@ -22,7 +22,7 @@ model/companies/manifest.json
 
 [employer_inventory]
 COMPLETE EMPLOYER LANDSCAPE REVIEW
-landscape_entries=2390
+landscape_entries=2393
 source_observations=2334
 matched_companies=23
 matched_roles=24
@@ -1227,7 +1227,7 @@ Ladybird Communications Limited | Unresolved | jobs=0 |  | employers/ladybird-co
 Laird Connectivity | RF | jobs=3 |  | employers/laird-connectivity.html
 Lambda Ecosse RF ltd | Unresolved | jobs=0 |  | employers/lambda-ecosse-rf-ltd.html
 Lambeth Council | Unresolved | jobs=0 |  | employers/lambeth-council.html
-Lancaster University | Unresolved | jobs=0 |  | employers/lancaster-university.html
+Lancaster University | ADJ | jobs=0 |  | employers/lancaster-university.html
 Landmrk | Unresolved | jobs=0 |  | employers/landmrk.html
 Landsec | Unresolved | jobs=0 |  | employers/landsec.html
 Larkhill Consultancy | Unresolved | jobs=0 |  | employers/larkhill-consultancy.html
@@ -1427,6 +1427,7 @@ National Cyber Security Centre | Unresolved | jobs=0 |  | employers/national-cyb
 National Informatics Centre, Government of India | Unresolved | jobs=0 |  | employers/national-informatics-centre-government-of-india.html
 National Institute for Health Research (NIHR) | Unresolved | jobs=0 |  | employers/national-institute-for-health-research-nihr.html
 National Instruments (NI) | ADJ | jobs=0 |  | employers/national-instruments-ni.html
+National Oilwell Varco (NOV) | ADJ | jobs=0 |  | employers/national-oilwell-varco-nov.html
 National Physical Laboratory (NPL) | ADJ | jobs=6 |  | employers/national-physical-laboratory-npl.html
 Natta Building Limited | Unresolved | jobs=0 |  | employers/natta-building-limited.html
 Natural England | Unresolved | jobs=0 |  | employers/natural-england.html
@@ -1588,6 +1589,7 @@ Ovum | Unresolved | jobs=0 |  | employers/ovum.html
 OX. Digital Health | Unresolved | jobs=0 |  | employers/ox-digital-health.html
 OxBrdgRbtx | Unresolved | jobs=0 |  | employers/oxbrdgrbtx.html
 Oxford Instruments | ADJ | jobs=0 |  | employers/oxford-instruments.html
+Oxford Instruments Plasma Technology | ADJ | jobs=0 |  | employers/oxford-instruments-plasma-technology.html
 Oxford Quantum Circuits (OQC) | RF | jobs=0 | Resonator | employers/oxford-quantum-circuits-oqc.html
 Oxford Space Systems | ADJ | jobs=0 |  | employers/oxford-space-systems.html
 Oxfordshire County Council | Unresolved | jobs=0 |  | employers/oxfordshire-county-council.html
@@ -2212,6 +2214,7 @@ Universal Quantum | ADJ | jobs=0 |  | employers/universal-quantum.html
 University of Bath | ADJ | jobs=0 |  | employers/university-of-bath.html
 University of Bristol (Communication Systems & Networks Research Group) | RF | jobs=2 |  | employers/university-of-bristol-communication-systems-networks-research-group.html
 University of Cambridge | ADJ | jobs=0 |  | employers/university-of-cambridge.html
+University of Exeter | ADJ | jobs=0 |  | employers/university-of-exeter.html
 University of Leeds | ADJ | jobs=1 |  | employers/university-of-leeds.html
 University of Leeds - School of Electronic & Electrical Engineering | ADJ | jobs=1 |  | employers/university-of-leeds-school-of-electronic-electrical-engineering.html
 University of Leicester | ADJ | jobs=0 |  | employers/university-of-leicester.html
